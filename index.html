@@ -12,14 +12,16 @@
 <body>    <!-- Hero Section -->
     <section class="hero" id="home">
         <!-- Navigation -->        <nav class="navbar">
-            <div class="nav-container">
-                <div class="logo">
-                    <a href="#">
+            <div class="nav-container">                <div class="logo">
+                    <a href="#home">
                         <img src="assets/LogoTL.png" alt="Terraço do Lago Logo" class="logo-img">
                     </a>
-                </div>                <ul class="nav-menu">
+                </div><ul class="nav-menu">
                     <li class="nav-item">
                         <a href="#home" class="nav-link">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#galeria" class="nav-link">Galeria</a>
                     </li>
                     <li class="nav-item">
                         <a href="#apartamentos" class="nav-link">Apartamento</a>
@@ -44,14 +46,9 @@
 
         <!-- Hero Content -->
         <div class="hero-content">
-            <div class="hero-text">
-                <h1>A esquina mais desejada da Pedra Branca</h1>
-                <p>Na Terraço do Lago, transformamos visões em realidade. Com mais de uma década de experiência, criamos espaços únicos que harmonizam arquitetura moderna com a beleza natural.</p>
-                <div class="hero-buttons">
-                    <button class="btn-primary">Nossos Projetos</button>
-                    <button class="btn-secondary">Fale Conosco</button>
-                </div>
-            </div>            <div class="hero-image">
+            <h1>A esquina mais desejada da Pedra Branca</h1>
+            
+            <div class="hero-image">
                 <div class="image-carousel">
                     <div class="carousel-slide active">
                         <img src="assets/FACHADA.png" alt="Fachada Terraço do Lago" />
@@ -64,7 +61,104 @@
                         <span class="indicator"></span>
                     </div>
                 </div>
-            </div>        </div>
+            </div>
+            
+            <div class="hero-text">
+                <p><strong>No Terraço do Lago, a vista para o lago da Pedra Branca é permanente.</strong>
+Um privilégio que acompanha o empreendimento do primeiro ao último andar, garantindo
+que a paisagem faça parte da sua rotina todos os dias. </p>
+            </div>
+            
+            <div class="hero-buttons">
+                <a href="https://wa.me/4915788012551" class="btn-secondary" target="_blank" rel="noopener noreferrer">Fale Conosco</a>
+                <a href="#galeria" class="btn-primary">Nosso Projeto</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Galeria Section -->
+    <section class="galeria" id="galeria">
+        <div class="container">
+            <div class="galeria-header">
+                <h2>Conheça o Terraço do Lago</h2>
+                <p>Veja as imagens do nosso empreendimento</p>
+            </div>
+            <div class="galeria-carousel-container">
+                <button class="galeria-nav galeria-prev" aria-label="Imagem anterior">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <polyline points="15 18 9 12 15 6"></polyline>
+                    </svg>
+                </button>
+                <div class="galeria-carousel-wrapper">
+                    <div class="galeria-carousel">
+                        <div class="galeria-item">
+                            <img src="assets/FACHADA ESQUINA DIURNA_FULLHD.png" alt="Fachada Esquina Diurna Terraço do Lago">
+                        </div>
+                        <div class="galeria-item">
+                            <img src="assets/FACHADA ESQUINA NOTURNA_FULLHD.png" alt="Fachada Esquina Noturna Terraço do Lago">
+                        </div>
+                        <div class="galeria-item galeria-item-aerea">
+                            <img src="assets/FACHADA AEREA_FULLHD.png" alt="Fachada Aérea Terraço do Lago">
+                        </div>
+                        <div class="galeria-item">
+                            <img src="assets/FACHADA DET. LAGO_FULLHD.png" alt="Detalhe Lago Terraço do Lago">
+                        </div>
+                        <div class="galeria-item">
+                            <img src="assets/FACHADA FUNDO_FULLHD.png" alt="Fachada Fundo Terraço do Lago">
+                        </div>
+                        <div class="galeria-item">
+                            <img src="assets/FACHADA LATERAL_FULLHD.png" alt="Fachada Lateral Terraço do Lago">
+                        </div>
+                        <div class="galeria-item">
+                            <img src="assets/Apto 801.png" alt="Apartamento 801 Terraço do Lago">
+                        </div>
+                        <div class="galeria-item">
+                            <img src="assets/Apto F01.png" alt="Apartamento F01 Terraço do Lago">
+                        </div>
+                        <div class="galeria-item">
+                            <img src="assets/Apto F02.png" alt="Apartamento F02 Terraço do Lago">
+                        </div>
+                        <div class="galeria-item">
+                            <img src="assets/FACHADA03.png" alt="Fachada 03 Terraço do Lago">
+                        </div>
+                        <div class="galeria-item">
+                            <img src="assets/FACHADA04.png" alt="Fachada 04 Terraço do Lago">
+                        </div>
+                        <div class="galeria-item">
+                            <img src="assets/Gourmet (4).png" alt="Área Gourmet 1 Terraço do Lago">
+                        </div>
+                        <div class="galeria-item" data-type="gourmet">
+                            <img src="assets/Gourmet (5).png" alt="Área Gourmet 2 Terraço do Lago">
+                        </div>
+                        <div class="galeria-item" data-type="gourmet">
+                            <img src="assets/Gourmet (7).png" alt="Área Gourmet 3 Terraço do Lago">
+                        </div>
+                        <div class="galeria-item">
+                            <img src="assets/LocalizaçãoApt02.png" alt="Localização Apartamento 02 Terraço do Lago">
+                        </div>
+                        <div class="galeria-item">
+                            <img src="assets/Pilotis.png" alt="Pilotis Terraço do Lago">
+                        </div>
+                        <div class="galeria-item" data-type="piscina">
+                            <img src="assets/Piscina (1).png" alt="Piscina 1 Terraço do Lago">
+                        </div>
+                        <div class="galeria-item" data-type="piscina">
+                            <img src="assets/Piscina (2).png" alt="Piscina 2 Terraço do Lago">
+                        </div>
+                    </div>
+                </div>
+                <button class="galeria-nav galeria-next" aria-label="Próxima imagem">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <polyline points="9 18 15 12 9 6"></polyline>
+                    </svg>
+                </button>
+            </div>
+            <div class="galeria-pagination">
+                <div class="scroll-indicator">
+                    <div class="scroll-indicator-progress"></div>
+                </div>
+            </div>
+        </div>
     </section>
 
     <!-- Apartamentos Section -->
@@ -73,7 +167,7 @@
             <div class="apartamentos-grid">
                 <div class="apartamentos-text">
                     <h2>Diferenciais dos Apartamentos</h2>
-                    <p>Conheça os detalhes que tornam nossos apartamentos únicos e aconchegantes.</p>
+                    <p>Conheça os diferenciais que tornam cada apartamento exclusivo e acolhedor.</p>
                     
                     <div class="apartamentos-features">
                         <div class="feature-item">
@@ -82,11 +176,7 @@
                         </div>
                         <div class="feature-item">
                             <span class="bullet"></span>
-                            <p>Apartamentos 2 e 3 dormitórios todos com ventilação natural</p>
-                        </div>
-                        <div class="feature-item">
-                            <span class="bullet"></span>
-                            <p>Amplas sacadas com bancada e pia</p>
+                            <p>Plantas de 2 e 3 dormitórios</p>
                         </div>
                         <div class="feature-item">
                             <span class="bullet"></span>
@@ -98,7 +188,7 @@
                         </div>
                         <div class="feature-item">
                             <span class="bullet"></span>
-                            <p>Apartamentos teto em gesso em todos ambientes</p>
+                            <p>Teto em gesso em todos ambientes</p>
                         </div>
                         <div class="feature-item">
                             <span class="bullet"></span>
@@ -114,7 +204,7 @@
                         </div>
                         <div class="feature-item">
                             <span class="bullet"></span>
-                            <p>Esquadrias Apartamentos em PVC</p>
+                            <p>Esquadrias em PVC</p>
                         </div>
                         <div class="feature-item">
                             <span class="bullet"></span>
@@ -138,7 +228,7 @@
                         </div>
                         <div class="feature-item">
                             <span class="bullet"></span>
-                            <p>Isolamento Acústico entre pisos</p>
+                            <p>Isolamento</p>
                         </div>
                         <div class="feature-item">
                             <span class="bullet"></span>
@@ -157,10 +247,9 @@
                         <div class="image-wrapper">
                             <img src="assets/FACHADA04.png" alt="Apartamento Terraço do Lago - Vista 2">
                         </div>
-                        <div class="cta-button"> 
-                            <button class="btn-primary">Fale Conosco</button>
-                        </div>
                     </div>
+                </div>                <div class="cta-button"> 
+                    <a href="https://wa.me/4915788012551" class="btn-primary" target="_blank" rel="noopener noreferrer">Fale Conosco</a>
                 </div>
             </div>
         </div>
@@ -190,7 +279,9 @@
 
                 <div class="diferencial-card">
                     <h3>Piscina</h3>
-                    <p>Área de lazer aquática para momentos de relaxamento e diversão</p>
+                    <p>Piscina com estrutura pensada para relaxamento, lazer e bem-estar.
+2 unidades por andar: Uma configuração que valoriza o seu bem-estar e a sua
+privacidade.</p>
                 </div>
 
                 <div class="diferencial-card">
@@ -208,27 +299,24 @@
 
     <!-- Location Section -->
     <section class="location" id="localizacao">
-        <div class="container">
-            <div class="location-header">
-                <h2>Localização Privilegiada</h2>
-                <p>O Terraço do Lago está localizado em uma área nobre, com fácil acesso a comércios, serviços e áreas de lazer.</p>
+        <div class="container">            <div class="location-header">
+                <h2>Localização Única</h2>
+                <p>Vista privilegiada para o Lago e para a Pedra Branca, em uma região nobre com fácil acesso a comércios, serviços e áreas de lazer.</p>
             </div>
-            <div class="location-content">
-                <div class="map-container">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3535.2131530906!2d-48.634872!3d-27.601466!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjfCsDM2JzA1LjMiUyA0OMKwMzgnMDUuNSJX!5e0!3m2!1spt-BR!2sbr!4v1623869295733!5m2!1spt-BR!2sbr" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-                </div>
-                <div class="location-info">
-                    <h3>Viva em um local estratégico</h3>
-                    <p>O Terraço do Lago oferece uma localização excepcional, com vista privilegiada para o lago e acesso fácil aos principais pontos da cidade.</p>
+            <div class="location-content">                <div class="map-container">
+                    <img src="assets/map.png" alt="Mapa da localização do Terraço do Lago" class="map-image">
+                </div>                <div class="location-info">
+                    <h3>Vista privilegiada em localização estratégica</h3>
+                    <p>O Terraço do Lago oferece uma experiência única de moradia, com vista deslumbrante para o lago e para a Pedra Branca, combinando natureza e conveniência urbana.</p>
                     
                     <div class="location-features">
                         <div class="location-feature">
                             <div class="bullet"></div>
-                            <p>A 5 minutos do centro comercial</p>
+                            <p>A 3 minutos do Passeio Pedra Branca</p>
                         </div>
                         <div class="location-feature">
                             <div class="bullet"></div>
-                            <p>Acesso fácil às principais vias</p>
+                            <p>Acesso direto às principais vias do bairro</p>
                         </div>
                         <div class="location-feature">
                             <div class="bullet"></div>
@@ -243,9 +331,8 @@
                             <p>Região segura e tranquila</p>
                         </div>
                     </div>
-                    
-                    <div class="location-cta">
-                        <a href="#contato" class="btn-primary">Agendar Visita</a>
+                      <div class="location-cta">
+                        <a href="https://wa.me/4915788012551?text=Olá,%20gostaria%20de%20agendar%20uma%20visita%20ao%20Terraço%20do%20Lago" class="btn-primary" target="_blank" rel="noopener noreferrer">Agendar Visita</a>
                     </div>
                 </div>
             </div>
@@ -301,7 +388,65 @@
             indicator.addEventListener('click', () => {
                 currentSlide = index;
                 showSlide(currentSlide);
-            });        });
+            });
+        });
+        
+        // Galeria com rolagem horizontal
+        const carousel = document.querySelector('.galeria-carousel');
+        const prevBtn = document.querySelector('.galeria-prev');
+        const nextBtn = document.querySelector('.galeria-next');
+        const scrollIndicator = document.querySelector('.scroll-indicator-progress');
+        
+        // Calcular o tamanho de rolagem com base no tamanho dos itens
+        function getScrollAmount() {
+            // Calcula o tamanho médio dos itens mais o gap
+            const items = carousel.querySelectorAll('.galeria-item');
+            if (items.length === 0) return 300;
+            
+            // Usa o primeiro item como referência
+            const firstItem = items[0];
+            const itemWidth = firstItem.offsetWidth;
+            const computedStyle = window.getComputedStyle(carousel);
+            const gap = parseInt(computedStyle.getPropertyValue('gap'), 10) || 20; // Fallback para 20px
+            
+            return itemWidth + gap;
+        }
+        
+        // Atualizar indicador de rolagem
+        function updateScrollIndicator() {
+            if (carousel && scrollIndicator) {
+                const scrollWidth = carousel.scrollWidth - carousel.clientWidth;
+                const scrollLeft = carousel.scrollLeft;
+                const scrollProgress = (scrollLeft / scrollWidth) * 100;
+                scrollIndicator.style.width = `${scrollProgress}%`;
+            }
+        }
+        
+        // Inicializar indicador
+        updateScrollIndicator();
+        
+        // Adicionar event listeners para botões de navegação
+        if (prevBtn && nextBtn && carousel) {
+            prevBtn.addEventListener('click', () => {
+                const scrollAmount = getScrollAmount();
+                carousel.scrollBy({ left: -scrollAmount, behavior: 'smooth' });
+            });
+            
+            nextBtn.addEventListener('click', () => {
+                const scrollAmount = getScrollAmount();
+                carousel.scrollBy({ left: scrollAmount, behavior: 'smooth' });
+            });
+            
+            // Atualizar indicador de rolagem durante a rolagem
+            carousel.addEventListener('scroll', () => {
+                updateScrollIndicator();
+            });
+        }
+        
+        // Atualizar indicador ao redimensionar a janela
+        window.addEventListener('resize', () => {
+            updateScrollIndicator();
+        });
     </script>    <!-- Footer -->
     <footer class="footer" id="contato">
         <div class="container">
@@ -309,33 +454,25 @@
                     <img src="assets/LogoTL.png" alt="Terraço do Lago Logo" class="footer-logo-img">
                 
                 </div>
-                <div class="footer-contact">
-                    <div class="contact-item">
+                <div class="footer-contact">                    <div class="contact-item">
                         <span>Endereço:</span>
-                        <p>Av. Beira Lago, 1000 - Centro</p>
-                    </div>
-                    <div class="contact-item">
+                        <p><a href="https://maps.app.goo.gl/wPYvXQFxXsZTpnKg6" target="_blank" rel="noopener noreferrer">Av. dos Lagos, Cidade Universitária Pedra Branca</a></p>
+                    </div><div class="contact-item">
                         <span>Telefone:</span>
-                        <p>(48) 99999-9999</p>
-                    </div>
-                    <div class="contact-item">
+                        <p><a href="tel:+4915788012551">+4915788012551</a></p>
+                    </div>                    <div class="contact-item">
                         <span>E-mail:</span>
-                        <p>contato@terracodolago.com.br</p>
+                        <p><a href="mailto:christiangrupokd@gmail.com">christiangrupokd@gmail.com</a></p>
                     </div>
-                </div>
-                <div class="footer-social">
-                    <a href="#" class="social-link">Instagram</a>
-                    <a href="#" class="social-link">Facebook</a>
-                    <a href="#" class="social-link">WhatsApp</a>
+                </div>                <div class="footer-social">
+                    <a href="https://wa.me/4915788012551" class="social-link" target="_blank" rel="noopener noreferrer">WhatsApp</a>
                 </div>
             </div>
             <div class="footer-bottom">
                 <p>&copy; 2025 Terraço do Lago. Todos os direitos reservados.</p>            </div>
         </div>
-    </footer>
-
-    <!-- WhatsApp Floating Button -->
-    <a href="https://wa.me/5548999999999" class="whatsapp-float" target="_blank" rel="noopener noreferrer" aria-label="Fale conosco pelo WhatsApp">
+    </footer>    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/4915788012551" class="whatsapp-float" target="_blank" rel="noopener noreferrer" aria-label="Fale conosco pelo WhatsApp">
         <div class="whatsapp-icon">
             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M19.05 4.91C18.1332 3.98392 17.0412 3.24967 15.8376 2.75005C14.6341 2.25043 13.3431 1.99546 12.04 2C6.58 2 2.13 6.45 2.13 11.91C2.13 13.66 2.59 15.36 3.45 16.86L2.05 22L7.3 20.62C8.75 21.41 10.38 21.83 12.04 21.83C17.5 21.83 21.95 17.38 21.95 11.92C21.95 9.27 20.92 6.78 19.05 4.91ZM12.04 20.15C10.56 20.15 9.11 19.75 7.85 19L7.55 18.83L4.43 19.65L5.26 16.61L5.06 16.29C4.24138 14.977 3.79799 13.4577 3.79 11.91C3.79 7.37 7.49 3.67 12.03 3.67C14.23 3.67 16.28 4.53 17.85 6.11C18.635 6.89369 19.2543 7.82384 19.6804 8.85C20.1064 9.87617 20.3304 10.9792 20.34 12.09C20.29 16.62 16.59 20.15 12.04 20.15ZM16.56 13.99C16.31 13.87 15.09 13.28 14.87 13.19C14.64 13.1 14.48 13.06 14.31 13.32C14.14 13.57 13.67 14.11 13.53 14.28C13.39 14.45 13.25 14.46 13 14.34C12.75 14.22 11.94 13.95 11 13.11C10.26 12.45 9.77 11.64 9.62 11.39C9.48 11.14 9.6 11.01 9.73 10.89C9.84 10.78 9.98 10.6 10.1 10.45C10.22 10.31 10.27 10.2 10.35 10.04C10.43 9.87 10.39 9.73 10.33 9.61C10.27 9.49 9.77 8.26 9.56 7.77C9.36 7.29 9.15 7.35 9 7.34C8.86 7.33 8.7 7.33 8.53 7.33C8.37 7.33 8.1 7.39 7.87 7.64C7.65 7.89 7 8.49 7 9.71C7 10.93 7.89 12.11 8.01 12.27C8.13 12.44 9.77 14.94 12.25 16.01C12.84 16.27 13.3 16.42 13.66 16.53C14.25 16.72 14.79 16.69 15.22 16.63C15.7 16.56 16.69 16.03 16.89 15.45C17.1 14.87 17.1 14.38 17.03 14.27C16.96 14.16 16.81 14.11 16.56 13.99Z" fill="currentColor"/>
